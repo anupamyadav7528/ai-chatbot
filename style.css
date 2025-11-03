@@ -153,29 +153,3 @@ footer {
     height: 24px;
     transform: translateX(2px);
 }
-
-
-/* for new  Subject Selector and Styles */
-
-.subject-selector {
-    background-color: #a0bddd;
-    display: flex;
-    align-items: center;
-    gap: 8px;
-}
-
-.subject-selector label {
-    font-size: 1rem;
-    color: var(--text-color);
-}
-
-.subject-selector select {
-    padding: 5px 8px;
-    background-color: #0e79eb;
-    border-radius: 4px;
-    border: 1px solid var(--border-color);
-    background-color: var(--incoming-chat-bg);
-    color: var(--text-color);
-    font-family: 'Poppins', sans-serif;
-    outline: none;
-}
